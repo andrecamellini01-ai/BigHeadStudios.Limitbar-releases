@@ -1,7 +1,7 @@
 {
-  "version": "1.8.0",
-  "build": 12,
-  "url": "https://github.com/andrecamellini01-ai/BigHeadStudios.Limitbar-releases/raw/main/Limitbar.dmg",
-  "sha256": "1c1a4320803eafe2dd6c44a2b1164f321b077cb786f89026bfed3d2141dcfae7",
+  "version": "1.9.0",
+  "build": 13,
+  "url": "https://github.com/andrecamellini01-ai/BigHeadStudios.Limitbar-releases/raw/main/versions/Limitbar-1.9.0.dmg",
+  "sha256": "2e7d00356e10923380fde1c3b57d8c7be1e68671b479e6d7b7ea773c6eead64b",
   "notes": "https://github.com/andrecamellini01-ai/BigHeadStudios.Limitbar-releases/tree/main/versions"
 }
