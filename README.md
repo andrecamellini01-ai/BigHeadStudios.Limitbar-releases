@@ -89,7 +89,7 @@ Troque a qualquer momento pelo menu ou em Configurações.
 | **Fable** | Teto semanal do Fable, e de outros modelos que o seu plano tiver | `Reseta em 3 dias e 4h20` |
 | **Créditos** | Uso extra pago, contra o teto mensal | `US$ 12,00 de US$ 50,00` |
 
-Mostre um, dois ou todos (menu › **Mostrar na barra**). **⌘T** alterna o valor: **restante → usado → projeção** (a projeção é Pro). **⌘ + arrastar** reordena. **Clique direito** abre o status do Claude.
+Mostre um, dois ou todos (menu › **Mostrar na barra**). Em **Valor na barra**, escolha **restante**, **usado** ou **projeção** (a projeção é Pro). **⌘ + arrastar** reordena. **Clique direito** abre o status do Claude.
 
 ## Status do Claude
 
@@ -106,7 +106,7 @@ Não só quanto já foi — **quando vai acabar**. Cada limite mostra para onde 
 
 Aparece no menu, na dica do item da barra e nas notificações. Funciona já nos primeiros minutos da sessão e fica mais esperta com o histórico (pesa mais o ritmo da última hora na sessão e das últimas 24 h na semana).
 
-**Na barra (Pro):** o 3º modo do ⌘T troca o número pela projeção — **`5h · ETA 1h20`** quando vai esgotar antes do reset, **`5h · sobra 38%`** quando dá folga.
+**Na barra (Pro):** o 3º valor da barra (menu › Valor na barra › Projeção) troca o número pela projeção — **`5h · ETA 1h20`** quando vai esgotar antes do reset, **`5h · sobra 38%`** quando dá folga.
 
 ## Alertas (Lite)
 
@@ -151,7 +151,7 @@ Uma notificação **domingo à noite** (20h) ou **segunda cedo** (8h), você esc
 
 ## Modo foco (Pro)
 
-A barra **some** enquanto está tudo tranquilo — fica só um ícone discreto — e **volta sozinha** quando um limite passa do aviso (80%) ou quando o aviso antecipado diz que vai esgotar antes do reset. Liga pelo menu, em Configurações ou com `limitbar://focus`.
+A barra **some** enquanto está tudo tranquilo — fica só um ícone discreto — e **volta sozinha** quando um limite passa do aviso (80%) ou quando o aviso antecipado diz que vai esgotar antes do reset. Liga em Configurações ou com `limitbar://focus`.
 
 ## Integrações (Pro)
 
@@ -185,7 +185,7 @@ Os números do Limitbar fora da barra. Nada disso fala com a Anthropic nem expõ
 - **Insights** — Advisor de plano, mapa de calor hora × dia e resumo semanal.
 - **Licença** — o seu plano do Limitbar (Free · Lite · Pro), a key e os Macs. Cole a key e pronto: sem conta.
 - **Sobre** — versão, procurar atualizações e links.
-- **Planos** (menu › Planos e upgrade) — os três planos lado a lado, o que você tem e os botões de compra.
+- **Planos** (Licença › Ver planos, ou o aviso do plano no topo do menu) — os três planos lado a lado, o que você tem e os botões de compra.
 
 ---
 
@@ -225,7 +225,7 @@ O critério é simples: o **Lite** responde *“quanto sobra e quando acaba”*.
 | **Mapa de calor** hora × dia | — | — | ✓ |
 | **Orçamento de créditos extras** — projeção e alertas em US$ | — | — | ✓ |
 | **Várias contas** — lado a lado ou alternando | — | — | ✓ |
-| **Projeção na barra** — `ETA 1h20` / `sobra 38%` (3º modo do ⌘T) | — | — | ✓ |
+| **Projeção na barra** — `ETA 1h20` / `sobra 38%` (3º valor da barra) | — | — | ✓ |
 | **Resumo semanal** | — | — | ✓ |
 | **Modo foco** | — | — | ✓ |
 | **Integrações** — Atalhos/AppleScript, `limitbar://`, Raycast, `current.json` | — | — | ✓ |
@@ -275,11 +275,11 @@ O critério é simples: o **Lite** responde *“quanto sobra e quando acaba”*.
 - **[Lite vitalício — US$ 2,99 →](COLE_AQUI_O_LINK_DO_LITE)**
 - **[Pro vitalício — US$ 9,99 →](COLE_AQUI_O_LINK_DO_PRO)**
 - **[Pro mensal — US$ 1,99/mês →](COLE_AQUI_O_LINK_DO_PRO_MENSAL)**
-- **Upgrade Lite → Pro — US$ 6,99:** pelo app, menu › **Planos e upgrade** (o checkout já vai ligado à sua key).
+- **Upgrade Lite → Pro — US$ 6,99:** pelo app, Configurações › Licença › **Upgrade para o Pro** (o checkout já vai ligado à sua key).
 
-Já tem key (Lite, ou a vitalícia da 1.x)? Compre pelo app (menu › **Planos e upgrade**): o checkout vai ligado à sua key e o plano novo chega sozinho, sem colar nada.
+Já tem key (Lite, ou a vitalícia da 1.x)? Compre pelo app (Configurações › Licença › **Ver planos**): o checkout vai ligado à sua key e o plano novo chega sozinho, sem colar nada.
 
-Comprou pelo site? A key chega no e-mail da compra. No app (com internet): menu do Limitbar › **Licença…** › cole › **Ativar**.
+Comprou pelo site? A key chega no e-mail da compra. No app (com internet): menu do Limitbar › **Configurações…** › **Licença** › cole › **Ativar**.
 
 ---
 
@@ -331,7 +331,7 @@ Não. Ele lê o histórico que já fica no seu Mac e faz a conta ali mesmo.
 <details>
 <summary><b>Já comprei a licença vitalícia. O que muda para mim?</b></summary>
 <br>
-Nada que você precise fazer. A sua licença é <b>Lite vitalício</b>: continua valendo para sempre, com tudo o que a série 1.x tem. Na 1ª abertura da 2.0 você ganha <b>14 dias de Pro</b> para experimentar; depois volta ao Lite. Se quiser ficar com o Pro, o upgrade sai por <b>US$ 6,99</b> (menu › Planos e upgrade).
+Nada que você precise fazer. A sua licença é <b>Lite vitalício</b>: continua valendo para sempre, com tudo o que a série 1.x tem. Na 1ª abertura da 2.0 você ganha <b>14 dias de Pro</b> para experimentar; depois volta ao Lite. Se quiser ficar com o Pro, o upgrade sai por <b>US$ 6,99</b> (Configurações › Licença › Upgrade para o Pro).
 </details>
 
 <details>
