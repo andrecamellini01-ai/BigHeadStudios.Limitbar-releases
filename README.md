@@ -390,6 +390,8 @@ Com os planos que mostram limites em Configurações › Uso, como Pro, Max e Te
 
 ---
 
+<p align="center"><sub>Também da BigHeadStudios: <a href="https://github.com/andrecamellini01-ai/BigHeadStudios.Notchbar-releases"><b>Notchbar</b></a> — seu notch, vivo: a música do Mac e o HUD de volume, brilho, bateria e AirPods no notch.</sub></p>
+
 <p align="center">
   <sub>Feito pela <b>BigHeadStudios</b>.<br>
   Limitbar é um app independente, sem afiliação, patrocínio ou endosso da Anthropic. Claude é marca da Anthropic, PBC.</sub>
