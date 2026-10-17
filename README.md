@@ -15,12 +15,13 @@
 </p>
 
 <p align="center">
-  <img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-2.0.0-17161A?style=flat-square">
+  <img alt="Versão" src="https://img.shields.io/badge/vers%C3%A3o-2.1.0-17161A?style=flat-square">
   <img alt="macOS 13 ou mais novo" src="https://img.shields.io/badge/macOS-13%2B-17161A?style=flat-square">
   <img alt="Apple Silicon e Intel" src="https://img.shields.io/badge/Apple_Silicon_%2B_Intel-universal-17161A?style=flat-square">
-  <img alt="14 dias de Pro grátis" src="https://img.shields.io/badge/teste-14_dias_de_Pro-17161A?style=flat-square">
+  <img alt="48 h de Pro grátis" src="https://img.shields.io/badge/teste-48_h_de_Pro-17161A?style=flat-square">
   <img alt="Free para sempre" src="https://img.shields.io/badge/Free-para_sempre-17161A?style=flat-square">
-  <img alt="Lite US$ 2,99 · Pro US$ 9,99" src="https://img.shields.io/badge/Lite_US%24_2%2C99_%C2%B7_Pro_US%24_9%2C99-17161A?style=flat-square">
+  <img alt="Lite R$ 9,90 · Pro R$ 29,90" src="https://img.shields.io/badge/Lite_R%24_9%2C90_%C2%B7_Pro_R%24_29%2C90-17161A?style=flat-square">
+  <img alt="Pix dentro do app" src="https://img.shields.io/badge/pagamento-Pix_no_app-17161A?style=flat-square">
 </p>
 
 <p align="center">
@@ -41,16 +42,19 @@
 
 O Limitbar mora na barra de menu e mostra quanto resta de cada limite do Claude, o tempo todo. Passe o mouse para ver quando reseta. Quando um limite chega a **80%** ele fica laranja; em **95%**, vermelho. Você vê o aperto chegando antes de ser cortado no meio de uma tarefa.
 
-Isso é o **Free** — grátis, para sempre. O **Lite** avisa e lembra. O **Pro** responde as perguntas que sobram:
+Isso é o **Free** — grátis, para sempre, um mostrador por vez. O **Lite** deixa a barra do seu jeito. O **Pro** responde as perguntas que sobram:
 
 | Pergunta | Quem responde |
 |---|---|
-| Quanto sobra agora e quando reseta? | **Free** — a barra |
-| Vai acabar antes do reset? Me avise antes de travar. | **Lite** — projeção, alertas, histórico |
+| Quanto sobra agora e quando reseta? | **Free** — a barra (um mostrador por vez) |
+| Quero ver tudo de uma vez, do meu jeito — barrinha, velocímetro, cores. | **Lite** — vários mostradores, estilos, atalhos |
+| Vai acabar antes do reset? Me avise antes de travar. | **Pro** — projeção, alertas, histórico |
 | **Estou no plano certo do Claude?** | **Pro** — Advisor de plano |
 | Quando eu mais gasto? Como foi minha semana? | **Pro** — gráficos, mapa de calor, resumo semanal |
 | Quanto vou gastar **em dinheiro** de créditos extras este mês? | **Pro** — orçamento de créditos |
 | E minha conta do trabalho? | **Pro** — várias contas |
+
+> **Seu histórico começa no dia 0, em qualquer plano.** O Limitbar guarda cada leitura no seu Mac desde a primeira abertura — Free, Lite ou Pro. No dia em que você virar Pro, o gráfico, o pico, o mapa de calor e o Advisor já nascem com semanas de dados.
 
 ## Estou no plano certo do Claude?
 
@@ -78,7 +82,7 @@ Precisa de **7 dias** de histórico (em pelo menos 5 dias diferentes) para dar u
 | <img src="assets/style-text.png" width="270" alt="Estilo texto"> | <img src="assets/style-bar.png" width="270" alt="Estilo barrinha"> | <img src="assets/style-gauge.png" width="270" alt="Estilo velocímetro"> |
 | Rótulo pequeno, número grande. Mostra o que **sobra**, o que já foi **usado** ou a **projeção** (Pro). | Barra fria → quente com o % na ponta. Azul quando está tranquilo, vermelha perto do teto. | Mostrador de 250° com ponteiro, de 0 a 100% usado. |
 
-Troque a qualquer momento pelo menu ou em Configurações.
+Troque a qualquer momento pelo menu ou em Configurações (estilos são **Lite**; o Free mostra em texto).
 
 ## O que aparece na barra
 
@@ -89,7 +93,7 @@ Troque a qualquer momento pelo menu ou em Configurações.
 | **Fable** | Teto semanal do Fable, e de outros modelos que o seu plano tiver | `Reseta em 3 dias e 4h20` |
 | **Créditos** | Uso extra pago, contra o teto mensal | `US$ 12,00 de US$ 50,00` |
 
-Mostre um, dois ou todos (menu › **Mostrar na barra**). Em **Valor na barra**, escolha **restante**, **usado** ou **projeção** (a projeção é Pro). **⌘ + arrastar** reordena. **Clique direito** abre o status do Claude.
+No **Free**, um por vez (menu › **Mostrar na barra** escolhe qual). No **Lite**, dois, três ou todos ao mesmo tempo, com atalhos de exibição e **⌘T** para alternar o conjunto. Em **Valor na barra**, escolha **restante** (Free), **usado** (Lite) ou **projeção** (Pro). **⌘ + arrastar** reordena. **Clique direito** abre o status do Claude.
 
 ## Status do Claude
 
@@ -97,7 +101,7 @@ Uma bolinha no canto do item mostra a saúde do Claude em tempo real: **verde** 
 
 Lê o status público da Anthropic, sem credencial. Está no **Free**. Dá para desligar em Configurações.
 
-## Projeção de consumo (Lite)
+## Projeção de consumo (Pro)
 
 Não só quanto já foi — **quando vai acabar**. Cada limite mostra para onde o seu ritmo está levando:
 
@@ -106,9 +110,9 @@ Não só quanto já foi — **quando vai acabar**. Cada limite mostra para onde 
 
 Aparece no menu, na dica do item da barra e nas notificações. Funciona já nos primeiros minutos da sessão e fica mais esperta com o histórico (pesa mais o ritmo da última hora na sessão e das últimas 24 h na semana).
 
-**Na barra (Pro):** o 3º valor da barra (menu › Valor na barra › Projeção) troca o número pela projeção — **`5h · ETA 1h20`** quando vai esgotar antes do reset, **`5h · sobra 38%`** quando dá folga.
+**Na barra:** o 3º valor da barra (menu › Valor na barra › Projeção) troca o número pela projeção — **`5h · ETA 1h20`** quando vai esgotar antes do reset, **`5h · sobra 38%`** quando dá folga.
 
-## Alertas (Lite)
+## Alertas (Pro)
 
 Uma notificação do macOS quando um limite passa do **aviso** (80%), do **crítico** (95%) e quando **esgota** — uma vez por subida, sem repetir enquanto o uso oscila perto do limiar.
 
@@ -117,11 +121,11 @@ Uma notificação do macOS quando um limite passa do **aviso** (80%), do **crít
 - **Silenciar** pela notificação (1 h ou até o reset) ou pelo menu (30 min, 1 hora, até amanhã).
 - **Som** à sua escolha (o padrão segue o modo Foco), vibração do trackpad (experimental) e limiares ajustáveis.
 
-## Histórico (Lite) e gráficos (Pro)
+## Histórico e gráficos (Pro)
 
-Cada leitura fica guardada **no seu Mac** por 90 dias. Na aba **Histórico**, escolha a métrica e o período (7, 30 ou 90 dias) e veja o **pico**, a **média**, **quantas vezes passou de 95%** e o **tempo que ficou travado** em 100%. **Exportar CSV** leva tudo para uma planilha. Isso é **Lite**.
+Cada leitura fica guardada **no seu Mac** por 90 dias — **em qualquer plano, desde a primeira abertura**. Na aba **Histórico** (Pro), escolha a métrica e o período (7, 30 ou 90 dias) e veja o **pico**, a **média**, **quantas vezes passou de 95%** e o **tempo que ficou travado** em 100%. **Exportar CSV** leva tudo para uma planilha. No Free e no Lite a aba mostra quantas leituras já foram guardadas e desde quando: vire Pro e está tudo lá.
 
-Com o **Pro**:
+E mais:
 
 - **Sparkline** em cada limite, direto no menu — as últimas horas num relance.
 - **Gráfico do período** na aba Histórico, com as linhas do aviso e do crítico.
@@ -191,95 +195,81 @@ Os números do Limitbar fora da barra. Nada disso fala com a Anthropic nem expõ
 
 ## Planos
 
-Três planos: **Free**, **Lite** e **Pro**. A key é só a sua identidade — o plano fica no servidor de licenças e chega ao app assinado a cada confirmação. Por isso dá para fazer upgrade, assinar ou cancelar **sem trocar de key**.
+Três planos: **Free**, **Lite** e **Pro**. Pagamento **único**, por **Pix, dentro do app** — sem assinatura, sem cartão, sem renovação. A key é só a sua identidade; o plano fica no servidor de licenças e chega ao app assinado a cada confirmação.
 
-O critério é simples: o **Lite** responde *“quanto sobra e quando acaba”*. O **Pro** só tem o que responde uma pergunta que o Lite não responde.
+O critério é simples: o **Free** mostra os números. O **Lite** deixa a barra do seu jeito. O **Pro** transforma o uso em informação — e tudo o que vier.
 
 ### Resumo
 
 | | **Free** | **Lite** | **Pro** |
 |---|:---:|:---:|:---:|
-| **Para quem** | quer só os números na barra | quer ser avisado antes de travar | quer saber se está no plano certo, quanto gasta e quando |
-| **Preço** | grátis | **US$ 2,99**<br><sub>pagamento único</sub> | **US$ 9,99**<br><sub>pagamento único</sub><br>ou **US$ 1,99/mês** |
-| **Precisa de key** | não | sim | sim |
+| **Para quem** | quer só os números na barra | quer a barra do seu jeito | quer ser avisado, saber se está no plano certo, quanto gasta e quando |
+| **Preço** | grátis | **R$ 9,90**<br><sub>uma vez</sub> | **R$ 29,90**<br><sub>uma vez</sub> |
+| **Como pagar** | — | Pix no app | Pix no app |
 | **Macs ao mesmo tempo** | quantos quiser (sem key) | 1 | **2** |
-| **Teste grátis** | — | — | **14 dias**, sem key nem cartão |
+| **Teste grátis** | — | — | **48 h**, sem key nem cartão |
 
 ### Recurso por recurso
 
 | Recurso | Free | Lite | Pro |
 |---|:---:|:---:|:---:|
-| Limites na barra — 5h, Weekly, Fable, Créditos | ✓ | ✓ | ✓ |
+| Limites na barra — 5h, Weekly, Fable, Créditos | ✓ <sub>1 por vez</sub> | ✓ | ✓ |
 | Menu com os detalhes de cada limite e o reset no hover | ✓ | ✓ | ✓ |
-| Três estilos — texto, barrinha, velocímetro | ✓ | ✓ | ✓ |
-| Cores de aviso na barra (80% / 95%) · ⌘ + arrastar | ✓ | ✓ | ✓ |
 | Status do Claude — bolinha + painel de incidentes | ✓ | ✓ | ✓ |
-| Atualização dentro do app (1 clique) | ✓ | ✓ | ✓ |
-| **Projeção de consumo** — “esgota em 1h20” (menu, hover, notificações) | — | ✓ | ✓ |
-| **Alertas** — aviso, crítico, esgotou, reset, silenciar, som | — | ✓ | ✓ |
-| **Aviso antecipado** — antes de bater no limite | — | ✓ | ✓ |
-| **Histórico** — 7/30/90 dias, pico, média, tempo travado | — | ✓ | ✓ |
-| **Exportar CSV** | — | ✓ | ✓ |
+| Histórico **gravado** no Mac (90 dias) | ✓ | ✓ | ✓ |
+| Atualização dentro do app (1 clique) · PT / EN / ES | ✓ | ✓ | ✓ |
+| **Vários mostradores** ao mesmo tempo · atalhos de exibição · ⌘T | — | ✓ | ✓ |
+| **Estilos** — texto, barrinha, velocímetro | — | ✓ | ✓ |
+| **Restante ou usado** · cores de aviso na barra (80% / 95%) · ⌘ + arrastar | — | ✓ | ✓ |
+| **Projeção de consumo** — “esgota em 1h20” (menu, hover, notificações) | — | — | ✓ |
+| **Alertas** — aviso, crítico, esgotou, reset, silenciar, som · **aviso antecipado** | — | — | ✓ |
+| **Histórico** — 7/30/90 dias, pico, média, tempo travado · **CSV** | — | — | ✓ |
 | **Advisor de plano** — estou no plano certo do Claude? | — | — | ✓ |
-| **Gráficos** — sparkline no menu, gráfico do período | — | — | ✓ |
-| **Mapa de calor** hora × dia | — | — | ✓ |
-| **Orçamento de créditos extras** — projeção e alertas em US$ | — | — | ✓ |
+| **Gráficos** — sparkline no menu, gráfico do período · **mapa de calor** hora × dia | — | — | ✓ |
+| **Orçamento de créditos extras** — projeção e alertas em dinheiro | — | — | ✓ |
 | **Várias contas** — lado a lado ou alternando | — | — | ✓ |
-| **Projeção na barra** — `ETA 1h20` / `sobra 38%` (3º valor da barra) | — | — | ✓ |
+| **Projeção na barra** — `ETA 1h20` / `sobra 38%` · **modo foco** | — | — | ✓ |
 | **Resumo semanal** | — | — | ✓ |
-| **Modo foco** | — | — | ✓ |
 | **Integrações** — Atalhos/AppleScript, `limitbar://`, Raycast, `current.json` | — | — | ✓ |
 | **2 Macs** por licença | — | — | ✓ |
 
-**Fora do Pro, de propósito:** correções e a adaptação a mudanças da API da Anthropic valem para todos os planos. Status do Claude é Free; CSV é Lite.
+**Fora do Pro, de propósito:** correções e a adaptação a mudanças da API da Anthropic valem para todos os planos. Status do Claude é Free. A **gravação** do histórico é de todo mundo — o que o Pro libera é ver, cruzar e exportar.
 
-### Preços
+### Comprar — Pix, dentro do app
 
-| Opção | Preço | O que você leva |
-|---|---|---|
-| **Lite vitalício** | US$ 2,99 — uma vez | Lite para sempre · 1 Mac |
-| **Pro vitalício** | US$ 9,99 — uma vez | Pro para sempre · 2 Macs |
-| **Pro mensal** | US$ 1,99/mês | Pro enquanto a assinatura estiver em dia · 2 Macs |
-| **Upgrade Lite → Pro** | US$ 6,99 — uma vez | Pro vitalício para quem já tem Lite — inclusive quem comprou na série 1.x |
+1. Menu do Limitbar › **Planos** › **Comprar Lite — R$ 9,90** ou **Comprar Pro — R$ 29,90**.
+2. Informe o seu melhor e-mail (a licença fica ligada a ele).
+3. Escaneie o **QR Pix** no app do seu banco (ou copie o código “copia e cola”). Valor fixo, destinatário à vista.
+4. Clique em **Já paguei** e anexe o comprovante — foto, captura de tela ou PDF do banco.
+5. Pode fechar a janela. Assim que conferirmos o pagamento (normalmente em poucas horas), o Limitbar **libera o plano sozinho** e avisa. Nada de key para colar.
+
+Já tem o Lite e quer o Pro? Mesmo caminho: **Passar para o Pro — R$ 29,90**. O plano novo cai na sua key atual.
+
+Recebeu uma key por e-mail (venda manual, cortesia)? Configurações › **Licença** › cole › **Ativar**.
 
 ### Teste grátis
 
-- **14 dias de Pro**, contados da 1ª abertura da 2.0 — para todo mundo, **inclusive quem já tem o Lite**.
+- **48 horas de Pro**, contadas da 1ª abertura — para todo mundo, **inclusive quem já tem o Lite**.
 - Sem key, sem cartão, sem cadastro.
 - **Quando acaba, o app não trava:** volta para o plano que você comprou (Lite) ou para o **Free**. A barra continua mostrando os limites; o que é Lite ou Pro mostra um cartão “Ver planos”. Uma notificação avisa uma vez.
+- **O histórico continua sendo gravado.** Compre o Pro semanas depois e os gráficos já aparecem com tudo o que foi colhido.
 
 ### Regras do jogo
 
-- **Você nunca perde o que comprou.** Vitalício é vitalício — Lite ou Pro.
-- **Comprou a licença vitalícia na série 1.x? Você tem Lite vitalício.** Nada a fazer: a aba Licença mostra **Lite · vitalício · série 1**. O upgrade para o Pro sai por US$ 6,99.
-- **Assinatura soma, não substitui.** Tem Lite e assina o Pro? É Pro enquanto a assinatura valer; quando ela acabar, você volta para o Lite — não para o Free.
-- **Cancelar não corta na hora.** O Pro mensal vale até o fim do período que você já pagou.
-- **Pagamento atrasou?** O Pro continua por **7 dias** enquanto a cobrança é refeita.
-- **Assina e quer parar de pagar todo mês?** Compre o Pro vitalício e cancele a assinatura pelo link do e-mail do Lemon Squeezy.
-- **Mudou de plano?** O app fica sabendo na próxima confirmação — reconfere sozinho uma vez por dia. Com pressa: Licença › **Conferir plano agora**, ou Planos › **Já comprei — conferir meu plano**.
+- **Você nunca perde o que comprou.** Lite ou Pro, é para sempre.
+- **Comprou a licença vitalícia na série 1.x? Você tem Lite vitalício** — e mantém alertas, histórico e previsão, como na 1.x. A aba Licença mostra **Lite · vitalício · série 1**. O Pro completo sai por R$ 29,90.
+- **Mudou de plano?** O app fica sabendo na próxima confirmação — reconfere sozinho uma vez por dia e, com um pedido Pix em andamento, a cada 5 minutos. Com pressa: Licença › **Conferir plano agora**, ou Planos › **Já paguei — conferir meu plano**.
+- **Pix recusado?** O app mostra o motivo e deixa mandar outro comprovante. Se o Pix saiu da sua conta e não aparece para nós, fale com o suporte.
 
 ### Macs
 
 - **Lite:** 1 Mac. **Pro:** 2 Macs ao mesmo tempo. (O Free não usa key: instale em quantos Macs quiser.)
 - **Trocar de Mac:** no antigo, Licença › **Remover licença deste Mac** — a vaga fica livre para o novo. Perdeu o Mac antigo? Fale com o suporte que a gente libera.
-- **O plano diminuiu** (por exemplo, a assinatura Pro acabou e você tinha 2 Macs): o Mac ativado **primeiro** continua normalmente; o outro pede para liberar uma vaga ou voltar ao Pro.
 
 ### Sem internet
 
 - A licença é confirmada online **uma vez** e depois o app reconfere sozinho uma vez por dia, quando há conexão.
-- **Ficar offline não trava o app.** Depois de 44 dias sem confirmar, vale o plano que você **comprou** (Lite ou Pro vitalício) por **até 6 meses** desde a última confirmação; o que tem **prazo** (assinatura, cortesia) espera a próxima conexão. Passou disso, o app segue no Free até voltar a falar com o servidor — e aí volta sozinho.
-
-### Comprar
-
-<!-- TROQUE os links abaixo pelos checkouts do Lemon Squeezy (os mesmos de Sources/Config.swift) -->
-- **[Lite vitalício — US$ 2,99 →](COLE_AQUI_O_LINK_DO_LITE)**
-- **[Pro vitalício — US$ 9,99 →](COLE_AQUI_O_LINK_DO_PRO)**
-- **[Pro mensal — US$ 1,99/mês →](COLE_AQUI_O_LINK_DO_PRO_MENSAL)**
-- **Upgrade Lite → Pro — US$ 6,99:** pelo app, Configurações › Licença › **Upgrade para o Pro** (o checkout já vai ligado à sua key).
-
-Já tem key (Lite, ou a vitalícia da 1.x)? Compre pelo app (Configurações › Licença › **Ver planos**): o checkout vai ligado à sua key e o plano novo chega sozinho, sem colar nada.
-
-Comprou pelo site? A key chega no e-mail da compra. No app (com internet): menu do Limitbar › **Configurações…** › **Licença** › cole › **Ativar**.
+- **Ficar offline não trava o app.** Depois de 44 dias sem confirmar, vale o plano que você **comprou** (Lite ou Pro) por **até 6 meses** desde a última confirmação. Passou disso, o app segue no Free até voltar a falar com o servidor — e aí volta sozinho.
 
 ---
 
@@ -304,7 +294,7 @@ O Limitbar é distribuído fora da App Store. O macOS pede que você aprove uma 
 
 - Usa o login que você **já tem** (app Claude para desktop ou Claude Code). Não pede senha nem API key.
 - Credenciais — inclusive as sessionKeys das contas extras — ficam no **Keychain** do seu Mac.
-- **Histórico, projeção, alertas, Advisor, gráficos, mapa de calor, orçamento e resumo são calculados no seu Mac** — percentuais, valores de créditos e horários de reset, nada de conteúdo. Nada disso sai dele, e dá para desligar e apagar o histórico quando quiser.
+- **Histórico, projeção, alertas, Advisor, gráficos, mapa de calor, orçamento e resumo são calculados no seu Mac** — e o histórico é gravado desde a 1ª abertura, em qualquer plano — percentuais, valores de créditos e horários de reset, nada de conteúdo. Nada disso sai dele, e dá para desligar e apagar o histórico quando quiser.
 - O **`current.json`** (Pro, dá para desligar) tem só números, horários, os nomes que você deu às contas e o plano — nunca e-mail ou credenciais — e só o seu usuário do Mac lê.
 - As chamadas de rede vão para a **Anthropic**, para ler o seu próprio uso. Fora isso, só a checagem diária de atualização e a confirmação da licença: a key, um código do Mac (um hash, não o número de série), o nome do Mac e a versão do app. A resposta traz o seu plano, assinado pelo servidor e conferido no seu Mac. Nada de analytics.
 
@@ -313,7 +303,7 @@ O Limitbar é distribuído fora da App Store. O macOS pede que você aprove uma 
 <details>
 <summary><b>Qual a diferença entre Free, Lite e Pro?</b></summary>
 <br>
-O <b>Free</b> mostra os limites na barra e o status do Claude, para sempre. O <b>Lite</b> é o Limitbar completo da série 1.x — projeção, alertas, histórico e CSV — para 1 Mac, pagando uma vez. O <b>Pro</b> tem tudo isso e responde o resto: se você está no plano certo do Claude (Advisor), quando você mais gasta (gráficos e mapa de calor), quanto vai gastar em créditos (orçamento), suas outras contas, resumo semanal, modo foco e integrações — em 2 Macs.
+O <b>Free</b> mostra um limite por vez na barra, em texto, e o status do Claude — para sempre. O <b>Lite</b> (R$ 9,90, 1 Mac) deixa a barra do seu jeito: vários mostradores ao mesmo tempo, estilos, restante/usado, cores e atalhos. O <b>Pro</b> (R$ 29,90, 2 Macs) tem tudo isso e transforma o uso em informação: alertas, projeção, histórico e CSV, Advisor de plano, gráficos e mapa de calor, orçamento de créditos, várias contas, resumo semanal, modo foco e integrações.
 </details>
 
 <details>
@@ -331,25 +321,19 @@ Não. Ele lê o histórico que já fica no seu Mac e faz a conta ali mesmo.
 <details>
 <summary><b>Já comprei a licença vitalícia. O que muda para mim?</b></summary>
 <br>
-Nada que você precise fazer. A sua licença é <b>Lite vitalício</b>: continua valendo para sempre, com tudo o que a série 1.x tem. Na 1ª abertura da 2.0 você ganha <b>14 dias de Pro</b> para experimentar; depois volta ao Lite. Se quiser ficar com o Pro, o upgrade sai por <b>US$ 6,99</b> (Configurações › Licença › Upgrade para o Pro).
+Nada que você precise fazer. A sua licença é <b>Lite vitalício</b>: continua valendo para sempre, e mantém alertas, histórico e previsão, como na 1.x. Na 1ª abertura você ganha <b>48 h de Pro</b> para experimentar; depois volta ao Lite. Se quiser o Pro completo, é R$ 29,90 uma vez, por Pix, no próprio app (Planos › Passar para o Pro).
 </details>
 
 <details>
-<summary><b>Vitalício ou mensal?</b></summary>
+<summary><b>Como eu pago? Precisa de cartão?</b></summary>
 <br>
-O <b>Pro vitalício</b> (US$ 9,99) se paga em cerca de 5 meses de assinatura. O <b>mensal</b> (US$ 1,99) é para experimentar sem compromisso ou usar por uma temporada: cancele quando quiser e ele vale até o fim do período pago.
-</details>
-
-<details>
-<summary><b>O que acontece se eu cancelar a assinatura?</b></summary>
-<br>
-O Pro continua até o fim do período que você já pagou. Depois, você volta para o plano que tinha comprado — Lite, se tiver, ou Free.
+Só Pix, dentro do app: QR com valor fixo, você anexa o comprovante e a licença é liberada sozinha quando o pagamento é conferido — normalmente em poucas horas. Sem cartão, sem assinatura, sem renovação, sem cadastro.
 </details>
 
 <details>
 <summary><b>O que acontece quando o teste acaba?</b></summary>
 <br>
-O app não trava. Você volta para o plano que comprou (Lite) ou para o Free: a barra continua mostrando os limites, e o que é Lite ou Pro mostra um cartão para ver os planos. Seu histórico continua guardado — compre depois e está tudo lá.
+O app não trava. Você volta para o plano que comprou (Lite) ou para o Free: a barra continua mostrando os limites (um por vez no Free), e o que é Lite ou Pro mostra um cartão para ver os planos. Seu histórico continua sendo gravado — compre semanas depois e está tudo lá.
 </details>
 
 <details>
